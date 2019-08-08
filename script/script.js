@@ -5,7 +5,7 @@ $(document).ready(function () {
         var jsonTemp = null;
         $.ajax({
             'async': false,
-            'url': "https://online-mehr-geschaeft.de/treaction/dev-master-clint-formUI/polling.php",
+            'url': "backend.txt",
             'success': function (data) {
                 jsonTemp = data;
             }
